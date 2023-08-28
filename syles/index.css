@@ -12,7 +12,7 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background: url("../img/fondo.svg") center / cover no-repeat fixed; 
+  background: url("../img/fondo.svg") center / cover no-repeat fixed;
   background-size: cover;
 }
 
@@ -27,7 +27,9 @@ header {
   padding: 10px 150px 20px 150px;
 }
 
-.whatsapp {
+/* Botones */
+
+.btn-pink {
   padding: 10px 50px;
   background-color: #B64795;
   color: white;
@@ -35,17 +37,44 @@ header {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-.whatsapp:hover {
+.btn-pink:hover {
   background-color: white;
   color: #B64795;
-  
+}
+
+.btn-white {
+  padding: 10px 50px;
+  background-color: white;
+  color: #B64795;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-white:hover {
+  background-color: #B64795;
+  color: white;
+}
+
+.scrollDown {
+  padding-bottom: 50px;
+}
+
+.scrollDown i {
+  font-size: 2rem;
+  color: #B64795;
+}
+
+.bi-check-circle {
+  color: white;
+  font-size: 2rem;
 }
 
 /* Sección Principal */
 
 .main {
-  padding-left: 50px;
+  padding-top: 50px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .amicla {
@@ -67,34 +96,33 @@ header {
 
 
 .caja-titulo-formulario {
-  background-color: white; 
-  padding: 20px; 
-  border-top-left-radius: 20px; 
-  border-top-right-radius: 20px; 
-  text-align: center; 
+  background-color: white;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
   color: #B64795;
   font-weight: 600;
 }
 
-
 .flecha {
   width: 0;
   height: 0;
-  border-left: 15px solid transparent; 
-  border-right: 15px solid transparent; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   border-top: 15px solid white;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 
 .caja-formulario {
-  border-radius: 0 0 30px 30px; 
-  border-top: 0; 
-  border-left: 0; 
-  border-right: 0; 
+  border-radius: 0 0 30px 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
   background-color: rgba(255, 255, 255, 0.236);
-  padding: 0 20px 20px 20px; 
-  font-size: 0.7rem;
+  padding: 0 20px 20px 20px;
+  font-size: 0.8rem;
   color: white;
 }
 
@@ -102,20 +130,25 @@ header {
   margin-top: 10px;
 }
 
-.form-control, .form-select {
-  font-size: 0.7rem;
+.form-control,
+.form-select {
+  font-size: 0.8rem;
 }
 
-.btn-pink {
-  padding: 10px 50px;
-  background-color: #B64795;
-  color: white;
-  border-radius: 10px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+/* Página checks */
+
+#checks {
+  padding-top: 60px;
 }
 
-.btn-pink:hover {
-  background-color: white;
+.subtitulo {
+  font-size: 1.5rem;
+}
+
+.subtitulo span {
   color: #B64795;
-  
+}
+
+.bi-check-circle {
+  color: white;
 }
