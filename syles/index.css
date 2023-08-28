@@ -16,6 +16,10 @@ body {
   background-size: cover;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 .navbar-brand img {
@@ -64,8 +68,16 @@ header {
   color: #B64795;
 }
 
-.bi-check-circle {
-  color: white;
+.bi-check-circle, .bi-telephone, .bi-envelope, .bi-geo-alt   {
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(to bottom, white, #B64795);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
 }
 
@@ -139,16 +151,40 @@ header {
 
 #checks {
   padding-top: 60px;
+  margin-bottom: 50px;
 }
 
 .subtitulo {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .subtitulo span {
   color: #B64795;
 }
 
-.bi-check-circle {
+p {
+  margin-bottom: 0;
+}
+
+.textoChecks{
+  font-size: 0.8rem;
   color: white;
+}
+
+.imagenes {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Requisitos */
+
+
+.reqs {
+  border: 1px solid #736779;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.651);
+  text-align: center;
 }
