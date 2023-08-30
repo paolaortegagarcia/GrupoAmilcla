@@ -1,0 +1,61 @@
+.main {
+  padding-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  .amicla {
+    font-weight: 600;
+  }
+
+  .creditos {
+    font-weight: 400;
+    color: $pink-color;
+  }
+
+  .hipotecarios {
+    font-weight: 300;
+  }
+
+  .texto {
+    font-size: 0.7rem;
+  }
+
+  .caja-titulo-formulario {
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    color: $pink-color;
+    font-weight: 600;
+  }
+
+  .caja-formulario {
+    border-radius: 0 0 30px 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(255, 255, 255, 0.236);
+    padding: 0 20px 20px 20px;
+    font-size: 0.8rem;
+    color: white;
+
+    .flecha {
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid white;
+      margin: 0 auto;
+    }
+  }
+
+  .formulario {
+    margin-top: 10px;
+
+    .form-control,
+    .form-select {
+      font-size: 0.8rem;
+    }
+  }
+}

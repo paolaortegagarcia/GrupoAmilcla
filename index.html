@@ -24,12 +24,13 @@
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="./syles/index.css">
+  <!-- <link rel="stylesheet" href="./syles/index.css"> -->
+  <link rel="stylesheet" href="./sass/main.css">
 </head>
 
 <body class="bg-body-tertiary">
 
-  <header>
+  <header id="form">
 
     <nav class="navbar">
       <div class="container-fluid">
@@ -47,7 +48,7 @@
 
   <!-- Pagina Principal -->
 
-  <div class="container main" id="form">
+  <main class="container main">
 
     <div class="row">
 
@@ -58,7 +59,7 @@
           <h1 class="amicla">A M I C L A</h1>
         </div>
 
-        <div class="mb-5 pb-3">
+        <div class="mb-5 pb-3 mq-container">
           <h3 class="creditos">CREDITOS</h3>
           <h3 class="hipotecarios">HIPOTECARIOS</h3>
           <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sapiente minima, officiis
@@ -134,9 +135,9 @@
 
     </div>
 
-  </div>
+  </main>
 
-  <div class="scrollDown container">
+  <div class="scrollDown container" id="checks">
     <a href="#checks">
       <i class="bi bi-arrow-down-circle"></i>
     </a>
@@ -145,7 +146,7 @@
 
   <!-- Checks -->
 
-  <div class="container checks" id="checks">
+  <section class="container checks">
 
     <div class="row">
 
@@ -166,35 +167,37 @@
       <div class="col-md-4 caja-checks d-flex flex-column justify-content-between">
 
         <div class="mb-3 textoChecks">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat quaerat non, sed delectus nihil eaque eos nam quam quibusdam.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat quaerat non, sed delectus nihil
+            eaque
+            eos nam quam quibusdam.</p>
         </div>
 
         <div class="checks mt-3">
 
-            <div class="mb-3 d-flex align-items-center">
-              <i class="bi bi-check-circle me-3"></i>
-              <p class="textoChecks d-flex align-items-center justify-content-center">Lorem ipsum dolor, sit amet </p>
-            </div>
+          <div class="mb-3 d-flex align-items-center">
+            <i class="bi bi-check-circle me-3"></i>
+            <p class="textoChecks d-flex align-items-center justify-content-center">Lorem ipsum dolor, sit amet </p>
+          </div>
 
-            <div class="mb-3 d-flex align-items-center">
-              <i class="bi bi-check-circle me-3"></i>
-              <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
-            </div>
+          <div class="mb-3 d-flex align-items-center">
+            <i class="bi bi-check-circle me-3"></i>
+            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+          </div>
 
-            <div class="mb-3 d-flex align-items-center">
-              <i class="bi bi-check-circle me-3"></i>
-              <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
-            </div>
+          <div class="mb-3 d-flex align-items-center">
+            <i class="bi bi-check-circle me-3"></i>
+            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+          </div>
 
-            <div class="mb-3 d-flex align-items-center">
-              <i class="bi bi-check-circle me-3"></i>
-              <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
-            </div>
+          <div class="mb-3 d-flex align-items-center">
+            <i class="bi bi-check-circle me-3"></i>
+            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+          </div>
 
-            <div class="mb-3 d-flex align-items-center">
-              <i class="bi bi-check-circle me-3"></i>
-              <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
-            </div>
+          <div class="mb-3 d-flex align-items-center">
+            <i class="bi bi-check-circle me-3"></i>
+            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+          </div>
 
         </div>
 
@@ -208,9 +211,9 @@
 
     </div>
 
-  </div>
+  </section>
 
-  <div class="scrollDown container">
+  <div class="scrollDown container" id="scrollReqs">
     <a href="#requisitos">
       <i class="bi bi-arrow-down-circle"></i>
     </a>
@@ -218,9 +221,9 @@
 
   <!-- Requisitos -->
 
-  <div class="container requisitos" id="requisitos">
+  <div class="container" id="requisitos">
 
-    <h2 class="creditos">REQUISITOS</h2>
+    <h2 class="requisitos">REQUISITOS</h2>
 
     <div class="reqs-container pb-5">
 
@@ -232,7 +235,10 @@
 
         <div class="col-md-10">
           <h4 class="text-start">Título de Propiedad</h4>
-          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
+          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio
+            quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod
+            dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea
+            reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
         </div>
 
       </div>
@@ -245,7 +251,10 @@
 
         <div class="col-md-10">
           <h4 class="text-start">Capacidad de Repago</h4>
-          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
+          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio
+            quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod
+            dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea
+            reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
         </div>
 
       </div>
@@ -258,7 +267,10 @@
 
         <div class="col-md-10">
           <h4 class="text-start">Otro Requisito</h4>
-          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
+          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio
+            quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod
+            dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea
+            reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
         </div>
 
       </div>
@@ -267,8 +279,8 @@
 
   </div>
 
-  
-  <footer class="container mt-5 pb-5">
+
+  <footer class="container pb-5">
 
     <div class="row">
 
@@ -281,17 +293,17 @@
       <div class="col-md-3"></div>
 
       <div class="col-md-4 d-md-flex flex-column align-items-start ">
-        <div class="mb-3 d-flex align-items-center">
+        <div class="mb-2 d-flex align-items-center">
           <i class="bi bi-telephone mb-2 me-3"></i>
           <p class="textoChecks">11-1111-0000</p>
         </div>
 
-        <div class="mb-3 d-flex align-items-center">
+        <div class="mb-2 d-flex align-items-center">
           <i class="bi bi-envelope mb-2 me-3"></i>
           <p class="textoChecks">amicla@mail.com</p>
         </div>
 
-        <div class="mb-3 d-flex align-items-center">
+        <div class="mb-2 d-flex align-items-center">
           <i class="bi bi-geo-alt mb-2 me-3"></i>
           <p class="textoChecks">Buenos Aires, Argentina</p>
         </div>
@@ -301,15 +313,15 @@
     </div>
 
   </footer>
-  
-  
 
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
 
 
 

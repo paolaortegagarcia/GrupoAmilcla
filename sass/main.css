@@ -1,0 +1,244 @@
+/* Colores */
+/* Botones */
+.btn-pink {
+  padding: 10px 50px;
+  background-color: #B64795;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-pink:hover {
+  background-color: white;
+  color: #B64795;
+}
+
+.btn-white {
+  padding: 10px 50px;
+  background-color: white;
+  color: #B64795;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-white:hover {
+  background-color: #B64795;
+  color: white;
+}
+
+/* Iconos */
+.scrollDown {
+  padding-bottom: 50px;
+}
+.scrollDown i {
+  font-size: 2rem;
+  color: #B64795;
+}
+
+.bi-check-circle,
+.bi-telephone,
+.bi-envelope,
+.bi-geo-alt {
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(to bottom, white, #B64795);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*   padding-left: 100px;
+  padding-right: 100px; */
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/fondo.svg") center/cover no-repeat fixed;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+  max-width: 100%;
+}
+
+header {
+  padding: 10px 150px 20px 150px;
+}
+
+.main {
+  padding-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.main .amicla {
+  font-weight: 600;
+}
+.main .creditos {
+  font-weight: 400;
+  color: #B64795;
+}
+.main .hipotecarios {
+  font-weight: 300;
+}
+.main .texto {
+  font-size: 0.7rem;
+}
+.main .caja-titulo-formulario {
+  background-color: white;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  color: #B64795;
+  font-weight: 600;
+}
+.main .caja-formulario {
+  border-radius: 0 0 30px 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: rgba(255, 255, 255, 0.236);
+  padding: 0 20px 20px 20px;
+  font-size: 0.8rem;
+  color: white;
+}
+.main .caja-formulario .flecha {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid white;
+  margin: 0 auto;
+}
+.main .formulario {
+  margin-top: 10px;
+}
+.main .formulario .form-control,
+.main .formulario .form-select {
+  font-size: 0.8rem;
+}
+
+#checks {
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.imagenes {
+  max-width: 100%;
+  height: auto;
+}
+
+.subtitulo {
+  font-size: 1rem;
+  text-align: center;
+}
+.subtitulo span {
+  color: #B64795;
+}
+
+.textoChecks {
+  font-size: 0.8rem;
+  color: white;
+}
+.textoChecks p {
+  margin-bottom: 0;
+}
+
+#scrollReqs {
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+#requisitos {
+  padding-top: 10px;
+}
+
+.reqs {
+  border: 1px solid #736779;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.651);
+  text-align: center;
+}
+
+.requisitos {
+  font-weight: 400;
+  color: #B64795;
+}
+
+.texto {
+  font-size: 0.7rem;
+}
+
+/* Main  */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Main */
+  .main .col-md-3 {
+    width: 100%;
+  }
+  .main .col-md-4 {
+    width: 100%;
+  }
+  .main .mq-container {
+    border: 1px solid #736779;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.651);
+  }
+  .main .caja-titulo-formulario {
+    background-color: #B64795;
+    color: white;
+  }
+  .main .caja-formulario {
+    color: black;
+    border-left: 1px solid #736779;
+    border-bottom: 1px solid #736779;
+    border-right: 1px solid #736779;
+  }
+  .main .caja-formulario .flecha {
+    border-top: 15px solid #B64795;
+  }
+}
+@media (max-width: 768px) {
+  /* Main */
+  .main .col-md-3 {
+    width: 100%;
+  }
+  .main .col-md-4 {
+    width: 100%;
+  }
+  .main .mq-container {
+    border: 1px solid #736779;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.651);
+  }
+  .main .caja-titulo-formulario {
+    background-color: #B64795;
+    color: white;
+  }
+  .main .caja-formulario {
+    color: black;
+    border-left: 1px solid #736779;
+    border-bottom: 1px solid #736779;
+    border-right: 1px solid #736779;
+  }
+  .main .caja-formulario .flecha {
+    border-top: 15px solid #B64795;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,84 @@
+/* Main  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Main */
+
+  .main {
+    .col-md-3 {
+      width: 100%;
+    }
+
+    .col-md-4 {
+      width: 100%;
+    }
+
+    .mq-container {
+      border: 1px solid #736779;
+      padding: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.651);
+    }
+
+    .caja-titulo-formulario {
+      background-color: $pink-color;
+      color: white;
+    }
+
+    .caja-formulario {
+      color: black;
+      border-left: 1px solid #736779;
+      border-bottom: 1px solid #736779;
+      border-right: 1px solid #736779;
+
+
+      .flecha {
+        border-top: 15px solid $pink-color;
+
+      }
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Main */
+
+  .main {
+    .col-md-3 {
+      width: 100%;
+    }
+
+    .col-md-4 {
+      width: 100%;
+    }
+
+    .mq-container {
+      border: 1px solid #736779;
+      padding: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.651);
+    }
+
+    .caja-titulo-formulario {
+      background-color: $pink-color;
+      color: white;
+    }
+
+    .caja-formulario {
+      color: black;
+      border-left: 1px solid #736779;
+      border-bottom: 1px solid #736779;
+      border-right: 1px solid #736779;
+
+
+      .flecha {
+        border-top: 15px solid $pink-color;
+
+      }
+    }
+
+  }
+}

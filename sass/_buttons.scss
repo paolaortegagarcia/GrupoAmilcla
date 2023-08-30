@@ -1,0 +1,61 @@
+/* Botones */
+
+.btn-pink {
+
+  padding: 10px 50px;
+  background-color: $pink-color;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: white;
+    color: $pink-color;
+  }
+
+}
+
+.btn-white {
+
+  padding: 10px 50px;
+  background-color: white;
+  color: $pink-color;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: $pink-color;
+    color: white;
+  }
+
+}
+
+
+/* Iconos */
+
+
+.scrollDown {
+  padding-bottom: 50px;
+
+  i {
+    font-size: 2rem;
+    color: $pink-color;
+  }
+
+}
+
+.bi-check-circle,
+.bi-telephone,
+.bi-envelope,
+.bi-geo-alt {
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(to bottom, white, $pink-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}

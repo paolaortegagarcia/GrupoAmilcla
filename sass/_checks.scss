@@ -1,0 +1,29 @@
+#checks {
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.imagenes {
+  max-width: 100%;
+  height: auto;
+}
+
+.subtitulo {
+  font-size: 1rem;
+  text-align: center;
+
+  span {
+    color: $pink-color;
+  }
+
+}
+
+.textoChecks {
+  font-size: 0.8rem;
+  color: white;
+
+  p {
+    margin-bottom: 0;
+  }
+
+}
