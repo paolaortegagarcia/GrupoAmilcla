@@ -1,9 +1,10 @@
-/* Main  */
 @media (min-width: 768px) and (max-width: 991px) {
 
   /* Main */
 
   .main {
+
+
     .col-md-3 {
       width: 100%;
     }
@@ -38,6 +39,59 @@
       }
     }
 
+  }
+
+  /* Checks */
+
+  .checks {
+
+    .col-md-5 {
+      width: 100%;
+    }
+
+    .col-md-4 {
+      width: 100%;
+    }
+
+    .subtitulo {
+      font-size: 30px;
+      border-radius: 30px;
+      color: white;
+      background-color: #736779;
+
+      span {
+        color: black;
+      }
+    }
+
+    .caja-checks {
+      border: 1px solid #736779;
+      padding: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.651);
+
+      .textoChecks,
+      .checks {
+        p {
+          color: black;
+          margin-bottom: 0rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+
+  /* Main */
+  .row>* {
+    padding-right: calc(var(--bs-gutter-x) * -0.5);
+
+  }
+
+  .amicla {
+    font-size: 35px;
   }
 }
 
@@ -46,6 +100,7 @@
   /* Main */
 
   .main {
+
     .col-md-3 {
       width: 100%;
     }
@@ -81,4 +136,100 @@
     }
 
   }
+
+  /*  Checks */
+
+  .checks {
+
+    .col-md-5 {
+      width: 100%;
+    }
+
+    .col-md-4 {
+      width: 100%;
+    }
+
+    .subtitulo {
+      font-size: 20px;
+      border-radius: 30px;
+      color: white;
+      background-color: #736779;
+
+      span {
+        color: black;
+      }
+    }
+
+    .caja-checks {
+      border: 1px solid #736779;
+      padding: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.651);
+
+      .textoChecks,
+      .checks {
+        p {
+          color: black;
+          margin-bottom: 0rem;
+        }
+      }
+    }
+
+  }
+
+  /* Footer */
+
+  footer {
+
+    .textoChecks {
+      color: black;
+    }
+
+    .foot {
+      margin-top: 30px;
+    }
+  }
+
+}
+
+@media (max-width: 662px) {
+
+  nav {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  main {
+    div {
+      .mb-3 {
+        text-align: center;
+      }
+    }
+
+
+    .formulario {
+      .mb-3 {
+        text-align: start;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 575px) {
+
+  body {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 555px) {
+
+  header {
+    padding: 0;
+  }
+
 }
