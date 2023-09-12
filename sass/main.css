@@ -82,7 +82,10 @@ header {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.main .amicla {
+.main h1 {
+  font-weight: 300;
+}
+.main .amilcla {
   font-weight: 600;
 }
 .main .creditos {
@@ -186,6 +189,10 @@ header {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Fondo */
+  body {
+    background: url("../img/fondoclaro.svg") center/cover no-repeat fixed;
+  }
   /* Main */
   .main .col-md-3 {
     width: 100%;
@@ -243,6 +250,10 @@ header {
   }
 }
 @media (max-width: 1199px) {
+  /* Fondo */
+  body {
+    background: url("../img/fondoclaro.svg") center/cover no-repeat fixed;
+  }
   /* Main */
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * -0.5);
@@ -252,6 +263,10 @@ header {
   }
 }
 @media (max-width: 768px) {
+  /* Fondo */
+  body {
+    background: url("../img/fondoclaro.svg") center/cover no-repeat fixed;
+  }
   /* Main */
   .main .col-md-3 {
     width: 100%;
@@ -307,6 +322,21 @@ header {
     color: black;
     margin-bottom: 0rem;
   }
+  .checks .bi-check-circle,
+  .checks .bi-telephone,
+  .checks .bi-envelope,
+  .checks .bi-geo-alt {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to bottom, #736779, #B64795);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
   /* Footer */
   footer .textoChecks {
     color: black;
@@ -316,6 +346,10 @@ header {
   }
 }
 @media (max-width: 662px) {
+  /* Fondo */
+  body {
+    background: url("../img/fondoclaro.svg") center/cover no-repeat fixed;
+  }
   nav div {
     display: flex;
     flex-direction: column;
@@ -326,14 +360,64 @@ header {
   main .formulario .mb-3 {
     text-align: start;
   }
+  .checks .bi-check-circle,
+  .checks .bi-telephone,
+  .checks .bi-envelope,
+  .checks .bi-geo-alt {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to bottom, #736779, #B64795);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
 }
 @media (max-width: 575px) {
   body {
     padding: 20px;
+    background: url("../img/fondoclaro.svg") center/cover no-repeat fixed;
+  }
+  .checks .bi-check-circle,
+  .checks .bi-telephone,
+  .checks .bi-envelope,
+  .checks .bi-geo-alt {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to bottom, #736779, #B64795);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
   }
 }
 @media (max-width: 555px) {
+  /* Fondo */
+  body {
+    background: url("../img/fondoclaro.svg") center/cover no-repeat fixed;
+  }
   header {
     padding: 0;
+  }
+  .checks .bi-check-circle,
+  .checks .bi-telephone,
+  .checks .bi-envelope,
+  .checks .bi-geo-alt {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to bottom, #736779, #B64795);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */
