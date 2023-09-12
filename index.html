@@ -54,18 +54,15 @@
 
       <div class="col-md-3 d-flex flex-column justify-content-between">
 
-        <div class="mb-3 mt-3">
+        <div class="mb-5 mt-3">
           <h2>G R U P O</h2>
           <h1 class="amicla">A M I L C L A</h1>
         </div>
 
-        <div class="mb-5 pb-3 mq-container">
-          <h3 class="creditos">CRÉDITOS</h3>
-          <h3 class="hipotecarios">HIPOTECARIOS</h3>
-          <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sapiente minima, officiis
-            deleniti vel, eaque rerum ea eveniet et voluptatibus quasi provident recusandae eos illum ad nemo aliquid.
-            Nulla quam, saepe quis inventore aliquid quo cupiditate architecto suscipit libero debitis adipisci sit ex
-            voluptates dignissimos, consequuntur fugit repudiandae blanditiis modi?.</p>
+        <div class="mb-5 mq-container">
+          <h3 class="creditos">CRÉDITOS <span class="hipotecarios">HIPOTECARIOS</span></h3>
+          <h3 class="hipotecarios">& <span class="creditos">SUCESIONES</span> INMOBILIARIAS</h3>
+          <p class="texto mt-4">Somos <span class="bold">líderes</span> en ayudarte a <span class="bold">obtener y administrar</span> un crédito hipotecario que se adapte perfectamente a tus necesidades, así como a <span class="bold">brindarte apoyo integral</span> en el complejo proceso de sucesión.</p>
         </div>
 
       </div>
@@ -87,12 +84,12 @@
 
             <div class="mb-3">
               <label for="nombreCompleto" class="form-label">Nombre y Apellido</label>
-              <input type="text" class="form-control" id="nombreCompleto">
+              <input type="text" class="form-control" id="nombreCompleto" required>
             </div>
 
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control" id="email" required>
             </div>
 
             <div class="mb-3">
@@ -101,30 +98,15 @@
             </div>
 
             <div class="mb-3">
-              <label for="montoSolicitar" class="form-label">Monto a Solicitar</label>
+              <label for="operacion" class="form-label">Operación</label>
               <select class="form-select" id="opciones">
-                <option value="monto1">Monto 1</option>
-                <option value="monto2">Monto 2</option>
-                <option value="monto3">Monto 3</option>
-                <option value="monto4">Monto 4</option>
-                <option value="monto5">Monto 5</option>
+                <option value="credito">Crédito Hipotecario</option>
+                <option value="sucesion">Sucesion</option>
               </select>
             </div>
 
-            <div class="mb-3">
-              <label class="form-label">¿Cuenta con un bien inmueble como garantía?</label>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="garantia" id="garantiaSi" value="si">
-                <label class="form-check-label" for="garantiaSi">Sí</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="garantia" id="garantiaNo" value="no">
-                <label class="form-check-label" for="garantiaNo">No</label>
-              </div>
-            </div>
-
             <div class="mb-3 text-center">
-              <button class="btn btn-pink" type="submit">Consultar valor de la cuota</button>
+              <button class="btn btn-pink" type="submit">Consultar</button>
             </div>
 
           </div>
@@ -157,7 +139,7 @@
         </div>
 
         <div class="mt-5 mb-4 pb-2">
-          <h3 class="subtitulo">MÁS DE <span class="color"> 3000 </span> CRÉDITOS OTORGADOS</h3>
+          <h3 class="subtitulo">INICIA <span class="color"> HOY MISMO </span> TU PROCESO</h3>
         </div>
 
       </div>
@@ -167,43 +149,42 @@
       <div class="col-md-4 caja-checks d-flex flex-column justify-content-between">
 
         <div class="mb-3 textoChecks">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat quaerat non, sed delectus nihil
-            eaque
-            eos nam quam quibusdam.</p>
+          <p>Entendemos lo importante que es contar con un aliado confiable en momentos tan sensibles. Nuestro compromiso es simplificar y agilizar el camino hacia tus objetivos patrimoniales.
+          </p>
         </div>
 
         <div class="checks mt-3">
 
           <div class="mb-3 d-flex align-items-center">
             <i class="bi bi-check-circle me-3"></i>
-            <p class="textoChecks d-flex align-items-center justify-content-center">Lorem ipsum dolor, sit amet </p>
+            <p class="textoChecks d-flex align-items-center justify-content-center">Mínimos requisitos. </p>
           </div>
 
           <div class="mb-3 d-flex align-items-center">
             <i class="bi bi-check-circle me-3"></i>
-            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+            <p class="textoChecks">Rápido y Seguro </p>
           </div>
 
           <div class="mb-3 d-flex align-items-center">
             <i class="bi bi-check-circle me-3"></i>
-            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+            <p class="textoChecks">Pre-aprobación online </p>
           </div>
 
           <div class="mb-3 d-flex align-items-center">
             <i class="bi bi-check-circle me-3"></i>
-            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+            <p class="textoChecks">Cuotas flexibles </p>
           </div>
 
           <div class="mb-3 d-flex align-items-center">
             <i class="bi bi-check-circle me-3"></i>
-            <p class="textoChecks">Lorem ipsum dolor, sit amet </p>
+            <p class="textoChecks">Asesoramiento y apoyo experto en cada paso del proceso de sucesión.  </p>
           </div>
 
         </div>
 
         <div class="mb-3 text-center">
           <a href="#form">
-            <button class="btn btn-white" type="submit">Consultar valor de la cuota</button>
+            <button class="btn btn-white" type="submit">Consultar</button>
           </a>
         </div>
 
@@ -235,10 +216,7 @@
 
         <div class="col-md-10">
           <h4 class="text-start">Título de Propiedad</h4>
-          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio
-            quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod
-            dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea
-            reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
+          <p class="texto text-start mt-3">El principal requisito para solicitar un crédito hipotecario es contar con una propiedad que respalde el mismo. Es importante destacar que la propiedad NO debe estar inhibida.</p>
         </div>
 
       </div>
@@ -251,10 +229,7 @@
 
         <div class="col-md-10">
           <h4 class="text-start">Capacidad de Repago</h4>
-          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio
-            quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod
-            dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea
-            reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
+          <p class="texto text-start mt-3">Una vez verificado el título de propiedad, evaluaremos tu capacidad de repago para asegurarnos de que el crédito no represente una carga financiera excesiva para ti.</p>
         </div>
 
       </div>
@@ -266,11 +241,8 @@
         </div>
 
         <div class="col-md-10">
-          <h4 class="text-start">Otro Requisito</h4>
-          <p class="texto text-start mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis odio
-            quidem reiciendis necessitatibus est dolor expedita ab maiores fugit. Iste est cumque id vitae porro quod
-            dignissimos quos optio! Voluptatem impedit eius voluptas commodi ratione, nemo nisi nobis ipsum ea
-            reiciendis, molestias porro quod nulla esse praesentium quibusdam similique doloribus?</p>
+          <h4 class="text-start">Documentación de Sucesión</h4>
+          <p class="texto text-start mt-3">Si estás involucrado en un proceso de sucesión, te ayudaremos a recopilar y presentar la documentación necesaria para facilitar la distribución de bienes heredados y resolver cualquier asunto legal relacionado.</p>
         </div>
 
       </div>
@@ -286,7 +258,7 @@
 
       <div class="col-md-5 mt-5">
         <a href="#form">
-          <button class="btn btn-pink" type="submit">Consultar valor de la cuota</button>
+          <button class="btn btn-pink" type="submit">Consultar</button>
         </a>
       </div>
 
