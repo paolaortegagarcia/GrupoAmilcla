@@ -7,6 +7,15 @@
 
 }
 
+.whatsapp {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: $pink-color;
+  }
+}
+
 header {
   padding: 10px 150px 20px 150px;
 }

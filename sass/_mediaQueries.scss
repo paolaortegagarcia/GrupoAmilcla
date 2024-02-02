@@ -10,7 +10,7 @@
 
   .main {
 
-
+    
     .col-md-3 {
       width: 100%;
     }
@@ -42,6 +42,18 @@
       .flecha {
         border-top: 15px solid $pink-color;
 
+      }
+
+      .form-label {
+        font-weight: 600;   
+      }
+
+      .form-control {
+        border: 1px solid grey;
+      }
+      
+      .form-select {
+        border: 1px solid grey;
       }
     }
 
@@ -79,13 +91,35 @@
 
       .textoChecks,
       .checks {
+        i {
+          color: rgba(128, 0, 128, 0.664);
+        }
         p {
           color: black;
           margin-bottom: 0rem;
         }
+
       }
     }
   }
+
+  .textoChecks {
+    color: black;
+  }
+
+
+  .foot {
+    .textoChecks {
+      color: black;
+      font-weight: 600;
+    }
+
+    i {
+      color: rgba(128, 0, 128, 0.664);
+    }
+  }
+
+
 }
 
 @media (max-width: 1199px) {
@@ -102,9 +136,40 @@
 
   }
 
-  .amicla {
-    font-size: 35px;
+  .formulario {
+    .form-label {
+      font-weight: 600;
+      color: black;
+    }
   }
+
+  .amilcla {
+    font-size: 33px;
+  }
+
+  .textoChecks {
+    color: black;
+  }
+
+  .caja-checks {
+
+    .checks {
+      i {
+        color: rgba(128, 0, 128, 0.664);
+      }
+    }
+  }
+
+  .foot {
+    i {
+      color: rgba(128, 0, 128, 0.664);
+    }
+    .textoChecks {
+      color: black;
+      font-weight: 600;
+    }
+  }
+
 }
 
 @media (max-width: 768px) {

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Colores */
 /* Botones */
 .btn-pink {
@@ -71,6 +72,14 @@ body {
 .navbar-brand img {
   max-height: 80px;
   max-width: 100%;
+}
+
+.whatsapp {
+  text-decoration: none;
+  color: black;
+}
+.whatsapp:hover {
+  color: #B64795;
 }
 
 header {
@@ -157,8 +166,10 @@ header {
 
 .textoChecks {
   font-size: 0.8rem;
+  font-weight: 600;
   color: white;
   margin-bottom: 0;
+  text-decoration: none;
 }
 
 #scrollReqs {
@@ -186,6 +197,24 @@ header {
 
 .texto {
   font-size: 0.9rem;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+h6 {
+  color: #B64795;
+}
+
+h6 {
+  color: #B64795;
+  font-weight: 700;
+}
+
+.pequeño {
+  color: purple;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -220,6 +249,15 @@ header {
   .main .caja-formulario .flecha {
     border-top: 15px solid #B64795;
   }
+  .main .caja-formulario .form-label {
+    font-weight: 600;
+  }
+  .main .caja-formulario .form-control {
+    border: 1px solid grey;
+  }
+  .main .caja-formulario .form-select {
+    border: 1px solid grey;
+  }
   /* Checks */
   .checks .col-md-5 {
     width: 100%;
@@ -243,10 +281,24 @@ header {
     border-top-right-radius: 20px;
     background-color: rgba(255, 255, 255, 0.651);
   }
+  .checks .caja-checks .textoChecks i,
+  .checks .caja-checks .checks i {
+    color: rgba(128, 0, 128, 0.664);
+  }
   .checks .caja-checks .textoChecks p,
   .checks .caja-checks .checks p {
     color: black;
     margin-bottom: 0rem;
+  }
+  .textoChecks {
+    color: black;
+  }
+  .foot .textoChecks {
+    color: black;
+    font-weight: 600;
+  }
+  .foot i {
+    color: rgba(128, 0, 128, 0.664);
   }
 }
 @media (max-width: 1199px) {
@@ -258,8 +310,25 @@ header {
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * -0.5);
   }
-  .amicla {
-    font-size: 35px;
+  .formulario .form-label {
+    font-weight: 600;
+    color: black;
+  }
+  .amilcla {
+    font-size: 33px;
+  }
+  .textoChecks {
+    color: black;
+  }
+  .caja-checks .checks i {
+    color: rgba(128, 0, 128, 0.664);
+  }
+  .foot i {
+    color: rgba(128, 0, 128, 0.664);
+  }
+  .foot .textoChecks {
+    color: black;
+    font-weight: 600;
   }
 }
 @media (max-width: 768px) {
